@@ -1,10 +1,12 @@
 import './App.css'
-import { add, diff } from './utils/math/math'
+import { add, diff, devide as div } from './utils/math/math'
 
 function App() {
- const addResult =add(5,6)
- const diffResult =diff(11,6)
-console.log(addResult,diffResult)
+const addResult =add(5,6)
+const diffResult =diff(11,6)
+const divResult =div(20,5)
+const devide = 18/9
+console.log(divResult,addResult,diffResult,devide)
   return (
     <>
       <div>
